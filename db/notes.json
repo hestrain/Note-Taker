@@ -1,55 +1,37 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
         "title": "Test Title2",
-        "text": "Test text4"
+        "text": "Test text4",
+        "id": "bbbb"
     },
     {
         "title": "what is up",
         "text": "note time",
-        "note_id": "e060"
+        "id": "e060"
     },
     {
         "title": "stop this",
         "text": "plz",
-        "note_id": "6400"
+        "id": "6400"
     },
     {
         "title": "hmmmmmm",
         "text": "weird",
-        "note_id": "fede"
+        "id": "fede"
     },
     {
         "title": "new",
         "text": "noooooootteeeeee",
-        "note_id": "c99b"
+        "id": "c99b"
     },
     {
-        "title": "dfsdkjflsdj",
-        "text": "sdfkjhsdlfk",
-        "note_id": "ee8f"
+        "title": "new cool note",
+        "text": "this is the content of the note",
+        "id": "3256"
     },
     {
-        "title": "fsdsa",
-        "text": "dfssadf",
-        "note_id": "ea74"
-    },
-    {
-        "title": "sdfsd",
-        "text": "dsa",
-        "note_id": "4cc1"
-    },
-    {
-        "title": "1",
-        "text": "sdadasda",
-        "note_id": "d196"
-    },
-    {
-        "title": "2",
-        "text": "asdasdas",
-        "note_id": "14a6"
+        "title": "note 2 the notening",
+        "text": "note note noe",
+        "id": "8db4"
     }
 ]
