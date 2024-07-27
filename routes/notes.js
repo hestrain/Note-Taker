@@ -25,6 +25,7 @@ notes.post('/', (req, res) => {
     };
 
     readAndAppend(newNote, './db/notes.json');
+    console.log("note added successfully");
     res.json(`note added successfully 🚀`);
   } else {
     res.error('Error in adding note');
