@@ -55,7 +55,6 @@ const deleteNote = (id) =>
 
 const renderActiveNote = () => {
   console.log('rendering active note');
-  console.log(activeNote.id);
   hide(saveNoteBtn);
   hide(clearBtn);
 
@@ -64,7 +63,7 @@ const renderActiveNote = () => {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
-    noteText.innerHTML = activeNote.text;
+    noteText.value = activeNote.text;
   } else {
     hide(newNoteBtn);
     noteTitle.removeAttribute('readonly');
@@ -120,7 +119,7 @@ const handleNoteView = (e) => {
   renderActiveNote();
 };
 
-// Sets the activeNote to and empty object and allows the user to enter a new note
+// Sets the activeNote to an empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {
   activeNote = {};
   show(clearBtn);
@@ -142,7 +141,7 @@ const handleRenderBtns = () => {
 // Render the list of note titles
 const renderNoteList = async (notes) => {
   let jsonNotes = await notes.json();
-  console.log("waiting for notes");
+  console.log(`waiting for notes ${notes}`);
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
   }
