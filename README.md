@@ -95,4 +95,4 @@ Don't forget to give the project a star! Thanks again!
 
  - [Github Repository](https://github.com/hestrain/Note-Taker)
 
- - [Deployed Site](https://hestrain.github.io/Note-Taker/)
+ - [Deployed Site](https://note-taker-t3yu.onrender.com)
